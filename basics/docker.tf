@@ -1,7 +1,7 @@
 // This is the same as doing:
 // docker pull hashicorp/vault:1.12.6
 resource "docker_image" "vault" {
-  name = "hashicorp/vault:1.12.6"
+  name = "hashicorp/vault:1.20"
 }
 
 // This is the same as doing:
